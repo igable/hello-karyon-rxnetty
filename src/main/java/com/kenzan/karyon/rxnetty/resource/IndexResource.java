@@ -56,7 +56,7 @@ public class IndexResource implements RequestHandler<ByteBuf, ByteBuf>{
                         } catch (Exception e){
                             e.printStackTrace();
                         }
-                        response.writeString("<html><head><style>body{text-align:center;font-family:'Lucida Grande'}</style></head><body><img src='http://kenzan.com/wp-content/themes/kenzan/images/logo-reg.png' /><h2>Example DSG Pipeline App V 1.9</h2><h3>Instance Id " + instanceId + "</h3></body></html>");
+                        response.writeString("<html><head><style>body{text-align:center;font-family:'Lucida Grande'}</style></head><body><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Dell_Logo.png/902px-Dell_Logo.png' /><h2>Example DSG Pipeline App V 1.9</h2><h3>Instance Id " + instanceId + "</h3></body></html>");
                         return response.close();
                     }
                 });
